@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        
+        Console.WriteLine("Nguyen Dang Thang-2415053122339");
         List<int> numbers = new List<int>();
 
         // Thêm 5 số bất kỳ
@@ -16,6 +16,10 @@ class Program
         numbers.Add(50);
 
         // In các phần tử ra màn hình
-     
+        Console.WriteLine("Các phần tử trong danh sách:");
+        foreach (int num in numbers)
+        {
+            Console.WriteLine(num);
+        }
     }
 }
